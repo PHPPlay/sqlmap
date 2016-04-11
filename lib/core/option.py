@@ -1398,7 +1398,7 @@ def _defaultHTTPUserAgent():
     @rtype: C{str}
     """
 
-    return "%s (%s)" % (VERSION_STRING, SITE)
+    return "Googlebot/2.1 (+http://www.google.com/bot.html)"
 
     # Firefox 3 running on Ubuntu 9.04 updated at April 2009
     #return "Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.9.0.9) Gecko/2009042113 Ubuntu/9.04 (jaunty) Firefox/3.0.9"
